@@ -1,0 +1,22 @@
+<template name="WIFI">
+    
+    <a href="/recentwificonnections"><button class="new-recipe">Recent Connections</button></a>
+
+    {{#each connect}}
+    {{#if status=on}}
+    <ul class="shopping-list in-menu">
+
+    <li>
+    <h3>{{name}}</h3>
+    <!-- {{type}} -->
+    {{strength}}
+    {{security}}</li>
+   <a href="/connectWifi/{{_id}}"> <i class="fa fa-pencil"></i></a>
+    </ul>
+    {{/if}}
+    
+    {{/each}} 
+
+   
+    
+</template>

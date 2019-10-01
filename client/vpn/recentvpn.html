@@ -1,0 +1,14 @@
+<template name="RecentVPN">
+                <a href="/recentvpnconnections"><button class="new-recipe">Recent Connections</button></a>
+        {{#each connect}}
+        <ul class="shopping-list {{#if status=on}}in-menu{{/if}}">
+        <li>
+       
+        {{type}}
+        {{strength}}
+        {{security}}</li>
+        </ul>
+        
+        {{/each}} 
+
+ </template>

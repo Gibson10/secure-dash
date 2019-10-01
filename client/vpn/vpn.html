@@ -1,0 +1,15 @@
+<template name="VPN">
+    {{#each connect}}
+
+    <button class="new-recipe">Recent Connections</button>
+    <ul class="shopping-list {{#if status=on}}in-menu{{/if}}">
+    <li>
+    <h3> {{name}}</h3>
+    {{strength}}
+    {{security}}</li>
+    <i class="fa fa-pencil"></i>
+    </ul>
+   
+    
+    {{/each}}
+</template>

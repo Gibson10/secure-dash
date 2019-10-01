@@ -1,0 +1,14 @@
+<template name="NFC">
+    {{#each connect}}
+    <ul class="shopping-list {{#if status=on}}in-menu{{/if}}">
+    <li>
+   <h3>{{name}} </h3>
+    {{strength}}
+    {{security}}</li>
+    <i class="fa fa-pencil"></i>
+    </ul>
+    
+    
+    {{/each}}
+    
+</template>

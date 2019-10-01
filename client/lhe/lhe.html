@@ -1,0 +1,12 @@
+<template name="LHE">
+    {{#each connect}}
+    <ul class="shopping-list {{#if status=on}}in-menu{{/if}}">
+    <li>
+    {{name}}
+    {{strength}}
+    {{security}}</li>
+    <i class="fa fa-pencil"></i>
+    </ul>
+    
+    {{/each}}
+</template>
