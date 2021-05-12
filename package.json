@@ -11,7 +11,7 @@
     "@babel/runtime": "^7.3.4",
     "bcrypt": "^3.0.6",
     "meteor-node-stubs": "^0.4.1",
-    "simpl-schema": "^1.5.5"
+    "simpl-schema": "^1.10.2"
   },
   "meteor": {
     "mainModule": {
